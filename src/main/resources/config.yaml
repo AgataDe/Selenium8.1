@@ -1,0 +1,40 @@
+browser:
+  browserName: chrome
+  attachScreenshot: false
+  headless: false
+  webElementTimeout: 10
+environment:
+  test1:
+    appUrl: http://146.59.32.4/
+    title: TesterSii
+    active: true
+  test2:
+    appUrl: http://146.59.32.4/
+    title: TesterSii
+    active: false
+testData:
+  typeText: HUMMINGBIRD
+  lowPrice: 13
+  highPrice: 15
+  poster: THE BEST IS YET POSTER
+  quantity: 3
+  quantityCheckout: 1
+  shipping: 7
+  currency: $
+  basketIteration: 10
+  minRange: 1
+  maxRange: 5
+  quantityOfProducts: 3
+  numberOfProducts: 2
+  value: 1
+  cartUrl: http://146.59.32.4/index.php?controller=cart&action=show
+  registeredUserEmail: agatarandom@gmail.com
+  registeredUserPassword: randomPassword!
+  firstName: Agata
+  lastName: De
+  address: Wysoka 7/3
+  zipCode: 15-666
+  City: Bialystok
+  country: Poland
+  status: Awaiting check payment
+
